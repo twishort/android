@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item android:id="@+id/action_me"
+        android:icon="@drawable/ic_action_profile"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="@string/avatar">
+        <menu>
+            <item android:id="@+id/action_twitter" android:title="@string/open_twitter"/>
+            <item android:id="@+id/action_twishort" android:title="@string/open_twishort"/>
+            <item android:id="@+id/action_support" android:title="@string/support"/>
+            <item android:id="@+id/action_login" android:title="@string/login"/>
+            <item android:id="@+id/action_logout" android:title="@string/logout"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_add"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="@string/add">
+        <menu>
+            <item android:id="@+id/action_add_camera" android:title="@string/photo_video"/>
+            <item android:id="@+id/action_add_title" android:title="@string/title"/>
+            <item android:id="@+id/action_add_place" android:title="@string/place"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_camera"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="@string/camera">
+    </item>
+
+    <item android:id="@+id/action_title"
+        android:icon="@drawable/ic_action_title"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="@string/title">
+    </item>
+
+    <item android:id="@+id/action_place"
+        android:icon="@drawable/ic_action_geo"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="@string/place">
+    </item>
+
+    <item android:id="@+id/action_send"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        app:actionLayout="@layout/send_menu_item"
+        android:title="@string/send" />
+
+</menu>

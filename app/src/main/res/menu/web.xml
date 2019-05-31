@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WebActivity" >
+
+
+    <item android:id="@+id/web_refresh"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/backward"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_action_back"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/forward"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_action_forward"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twishort</string>
+    <string name="send">Send</string>
+    <string name="past">Past</string>
+    <string name="take_image">Choose image</string>
+    <string name="take_photo">Take photo</string>
+    <string name="clear_image">Clear image</string>
+    <string name="logout">Sign out</string>
+    <string name="login">Sign in</string>
+    <string name="relogin">Resign in before send</string>
+    <string name="support">Support</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Back</string>
+    <string name="success">Tweet sent successfully</string>
+    <string name="yes">Yes</string>
+    <string name="save_close">Save &amp; Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="remove">Remove</string>
+    <string name="set">Set</string>
+    <string name="background">Background</string>
+    <string name="set_background">Set background?</string>
+    <string name="select_media">Select Media</string>
+    <string name="settings">Settings</string>
+    <string name="avatar">Avatar</string>
+    <string name="camera">Camera</string>
+    <string name="authorize">Sign in</string>
+    <string name="geolocation">Geolocation</string>
+    <string name="authorize_title">Authorize</string>
+    <string name="title">Title</string>
+    <string name="twitter">Twitter</string>
+    <string name="title_hint">Title ...</string>
+    <string name="place">Place</string>
+    <string name="add">Add</string>
+    <string name="hide">Hide</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="photo_video">Photo &amp; Video</string>
+    <string name="show_tweet">Show tweet</string>
+    <string name="ask_quit">Save text and close app?</string>
+    <string name="open_twitter">Open Twitter</string>
+    <string name="open_twishort">Open Twishort</string>
+    <string name="send_dialog">Send Tweet</string>
+    <string name="wait">Please wait ...</string>
+    <string name="auth_dialog">Sign in</string>
+    <string name="text_hint">Your long tweet here ...</string>
+    <string name="place_searching">Searching places ...</string>
+    <string name="coordinates">Coordinates</string>
+    <string name="select_place">Select Place</string>
+    <string name="twitter_limit">Twitter Limits</string>
+
+    <string name="error_sign_in">Can\'t sign in</string>
+    <string name="error_twishort">Can\'t send tweet to Twishort</string>
+    <string name="error_sign">Can\'t sign tweet</string>
+    <string name="error_twitter">Can\'t send tweet to Twitter</string>
+    <string name="error_internet">Internet needed</string>
+    <string name="error_auth">Can\'t authenticate</string>
+    <string name="error_twishort_decode">Can\'t get response from Twishort</string>
+    <string name="error_limit">Too many tweets, try again later</string>
+    <string name="error_duplicate">Tweet is duplicated</string>
+    <string name="error_twitter_id">Can\'t get tweet id from Twitter</string>
+    <string name="error_send">Can\'t send tweet</string>
+    <string name="error_video">Video duration should be between 0.5 seconds and 30 seconds. File size should not exceed 15 mb</string>
+    <string name="error_geo_disabled">To get nearby places you need to enable geo location service</string>
+    <string name="error_geo_timeout">Can\'t get geo location</string>
+    <string name="error_places">Can\'t get places</string>
+    <string name="error_places_find">Can\'t find nearby places</string>
+    <string name="error_places_authorize">To get nearby places you need to authorize in Twitter</string>
+    <string name="error_place_undefined">Place undefined</string>
+    <string name="error_place_not_found">Places not found</string>
+    <string name="error_background">Can\'t set background</string>
+
+</resources>
