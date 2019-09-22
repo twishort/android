@@ -7,7 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -25,7 +25,7 @@ import com.likeitstudio.helper.Connection;
 /**
  * Created on 14.02.14.
  */
-public class WebActivity extends ActionBarActivity {
+public class WebActivity extends AppCompatActivity {
 
     public static final String URL = "url";
     public static final String REQUEST_CODE = "requestCode";
@@ -39,6 +39,7 @@ public class WebActivity extends ActionBarActivity {
         bar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.action_bar)));
         bar.setDisplayHomeAsUpEnabled(true);
         wv.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+        wv.getSettings().setAllowFileAccess(false);
     }
 
     private void defineVariables() {

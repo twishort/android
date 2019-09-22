@@ -14,7 +14,7 @@ import android.graphics.BitmapFactory;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
 import android.util.TypedValue;
@@ -58,7 +58,7 @@ public class DefaultApplication extends Application {
     public static final int IMAGE_SIZE = 800;
 
     private static Context context;
-    private static ActionBarActivity activity;
+    private static AppCompatActivity activity;
 
     private static final String TOKEN = "token";
     private static final String USERNAME = "username";
@@ -95,11 +95,11 @@ public class DefaultApplication extends Application {
         return DefaultApplication.context;
     }
 
-    public static ActionBarActivity getCurrentActivity() {
+    public static AppCompatActivity getCurrentActivity() {
         return activity;
     }
 
-    public static void setActivity(ActionBarActivity act) {
+    public static void setActivity(AppCompatActivity act) {
         activity = act;
     }
 
